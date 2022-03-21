@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Ubuntu&display=swap');
+
+h1 {
+    font-family: 'Playfair Display', serif; font-weight: bolder;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background: lightseagreen;
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: 10px auto;
+    border-top-width: 15px;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+
+li {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+header,
+main {
+    background: rgb(128, 229, 224);
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.041);
+    box-shadow: 3px 3 px 7 px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+button {
+    background: white;
+    border: 1px solid lightseagreen;
+
+    border-radius: 12px;
+    color: lightseagreen;
+    width: 100%;
+    padding-bottom: 8px 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: lightseagreen;
+    color: white;
+    letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+    gap: 50px
+}
+
+ul.cursos {
+    display: flex;
+    gap: 10px;
+
+}
+
+main h4 {
+    background: lightseagreen;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 120px;
+    margin: 0 -20;
+    color: white;
+    text-shadow: 2 2 8 rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+
+}
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 20px;
+    }
+
+    ul.cursos {
+        flex-direction: column;
+    }
+
+    ul.cursos img {
+        width: 100%
+    }
+
+
+}
