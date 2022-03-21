@@ -1,0 +1,49 @@
+
+body {
+    background: #fffbb6;
+    font-family: sans-serif;
+    max-width: 960px;
+    margin: 15px auto 15px auto;
+    border-top-width: 15px;
+    
+
+}
+
+
+div {
+
+    border: 3px solid goldenrod;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 15px auto 15px auto;
+    width: 50%;
+    text-align: center;
+
+    transition: 15ms;
+
+}
+
+div:hover{
+background: gold;
+
+}
+iframe {
+    text-align: center;
+  
+
+}
+
+button:hover{
+background: gold;
+
+
+}
+button {
+
+border-radius: 10px;
+max-width: 100px;
+font-family: serif;
+transition: 15ms;
+text-align: center;
+border-color: goldenrod ;
+
