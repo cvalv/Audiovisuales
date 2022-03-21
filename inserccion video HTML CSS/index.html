@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <video id="video01" src="001.mp4" autoplay controls></video>
+
+<!-------------botones para JS------------->
+
+
+<button onclick="play()" type="button">Play</button>
+<button onclick="pause()" type="button">Pause</button>
+<button onclick="stop()" type="button">Stop</button>
+
+
+<!-------------botones para JS------------->
+
+<!-------------------------->
+<script>
+var vid = document.getElementById("video01");
+
+function play() { 
+  vid.controls = true;
+  vid.load();
+} 
+
+function disableControls() { 
+  vid.controls = false;
+  vid.load();
+} 
+
+function checkControls() { 
+  alert(vid.controls);
+} 
+</script> 
+<!-------------------------->
+
+
+
+
+</body>
+</html>
