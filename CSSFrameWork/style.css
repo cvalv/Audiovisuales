@@ -1,0 +1,117 @@
+/*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 1px solid red;
+}*/
+
+:root {
+    --c1: gold;
+    --c2: goldenrod;
+    --c3: gainsboro;
+    ---c4: lightcyan;
+    --c5: wheat;
+    --c6: blueviolet;
+
+    --f1: Helvetica, Arial, sans-serif;
+    --f2: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --f3: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue'
+        --br: 20px;
+
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    margin:auto 10px;
+}
+li{
+  display: inline;
+  border: 1px solid var(--c6);
+  padding: 10px;
+  font-size: 20px;
+
+}
+
+
+body {
+    font-family: var(--f1);
+    max-width: 960px;
+    margin: 20px auto;
+    hyphens: auto;
+    text-align: justify;
+    background: var(--c5);
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--c6);
+}
+
+img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#redonda {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 200px;
+
+
+
+}
+
+
+
+button,
+.btn {
+    background: none;
+    border: solid 2px var(--c2);
+    border-radius: var(--br);
+    text-align: center;
+    color: var(--c2);
+    padding: 4px 10px;
+    min-width: 300px;
+    max-width: 540px;
+    margin: 4px auto;
+
+}
+
+#btnHover:hover {
+    background: #000;
+}
+
+#btnDestacado {
+    background: var(--c2);
+    color: var(--c5);
+    font-weight: bolder;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.flex {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 560px) {
+    body {
+        padding: 15px;
+    }
+}
+
+.flex,
+nav ul {
+    flex-direction: column;
+}
