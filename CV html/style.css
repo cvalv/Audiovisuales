@@ -1,0 +1,84 @@
+* {
+  outline: 1px red solid;
+}
+
+body {
+  max-width: 960px;
+  font-family: sans-serif;
+  margin: 20px auto;
+  text-align: center;
+}
+
+nav {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 214, 0, 0.8) 0%,
+    rgba(252, 250, 216, 0.8) 100%
+  );
+  opacity: 0.75;
+  border: 3px solid #ffd600;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+#n1 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 214, 0, 0.8) 0%,
+    rgba(252, 250, 216, 0.8) 100%
+  );
+  opacity: 0.75;
+  border: 3px solid #ffd600;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#n2 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 214, 0, 0.8) 0%,
+    rgba(252, 250, 216, 0.8) 100%
+  );
+  opacity: 0.75;
+  border: 3px solid #ffd600;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-top: 20px;
+  background-image: url(img/iglesia.png);
+
+  background-position: right;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: gold;
+  color: goldenrod;
+}
+
+#previo,
+#posterior {
+  background-color: gold;
+  color: black;
+  border-radius: 50%;
+  font-weight: bolder;
+  font-size: 20px;
+  
+ 
+}
+#arriba{
+  float: right;
+}
+
+img{
+object-position: center;
+object-fit: contain;
+height: 500px;
+}

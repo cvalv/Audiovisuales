@@ -1,0 +1,79 @@
+
+
+
+
+<script>	
+var ruta='img/';
+var extension='.jpg';
+
+var imgs = [
+    'reintegración volumétrica-serafines-retablo-san josé',
+'san antonio-restauración',
+'san antonio-restauración-reintegración-limpieza química',
+'modelado-restauración-reintegración-maría magdalena-capilla-hornacina',
+'moldeado-mortero-restauración-maría magdalena-piedra',
+'moldeado-mortero-restauración-maría magdalena-piedra-adhesión',
+'moldeado-mortero-restauración-maría magdalena-piedra-policromado',
+'moldeado-mortero-restauración-maría magdalena-piedra-policromado-conservación',
+'larva carcoma grande',
+'xilófagos-anobium puctatum-cerambícidos-carcoma grande',
+'restauración-adhesión',
+'reintegración volumétrica',
+'reintegración-volumétrica-serafines-ángeles-monumento carlistas',
+'reintegración volumétrica cromática',
+'monedas-cobre-óxido',
+'restauración-adhesión-reintegración cromática-lienzos-mariano moré',
+'mapa alteraciones-retablo',
+'conservación-restauración-inyección',
+'reintegración volumétrica-fachada-piedra-mortero-cal hidráulica',
+'reintegración volumetrica-mortero-fachada-iglesia',
+'campanario-fachada-restauración',
+'reposición-cruz-campanario',
+'restauración-reintegración volumétrica-mortero-capitel',
+'acuarela-gallo',
+'acuarela',
+'replica-virgen-contrueces-modelado-moldeado-policromado',
+'diañu-modelado-policromado',
+'modelado-policromado-diañu',
+'dobby-modelado-policromado',
+'moisés-miguel angel-molde-modelado',
+'calabera-molde',
+'moldeado-yeso',
+'moldeado-yeso-molde',
+'talla piedra',
+'talla-piedra',
+'talla-piedra-mesa',
+'escultura-alabastro-madera-talla',
+'azabache-corazón',
+'anillo-plata-azabache',
+'clases-dibujo'
+];
+
+
+
+
+
+var numerajo=0;
+
+function siguiente(){
+  numerajo++;
+  if(numerajo>=imgs.length){ numerajo=0;}
+  cargarImagen();
+}
+
+function anterior(){
+  if(numerajo<=0){ numerajo=imgs.length;}
+  numerajo--;
+  cargarImagen();
+  
+}
+
+function cargarImagen(){
+    document.getElementById('imagen').src=ruta+imgs[numerajo]+extension;
+}
+
+cargarImagen();
+
+
+	
+</script>
