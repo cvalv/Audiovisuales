@@ -1,0 +1,204 @@
+/* * {
+    outline: yellow 1px solid;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Press+Start+2P&family=VT323&display=swap');
+
+/* font-family: 'Audiowide', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'VT323', monospace */
+
+:root {
+    --c1: rgb(167, 24, 24);
+    --c2: white;
+    --font: sans-serif;
+    --esp: 10px;
+    --br: 10px;
+    --bgcolor: black;
+}
+
+body {
+    background: url("https://acegif.com/wp-content/gif/outerspace-6.gif");
+    color: var(--c1);
+    padding: var(--esp) auto;
+    /*max-width: 960px;*/
+    /* height: 100vh; */
+    margin: 10px auto;
+    font-family: var(--font);
+}
+
+header  {
+    
+    
+    font-family: 'Audiowide', cursive;
+}
+
+
+
+footer {
+    background-color: var(--bgcolor);
+    margin: var(--esp) auto;
+    border-radius: 3px;
+}
+
+main {
+    background: url("img/navepuente.png") no-repeat center;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: var(--c1);
+}
+
+h1{
+    font-size: 50px;
+    text-shadow: 0px 0px 8px lightgoldenrodyellow;
+}
+
+.tac {
+    text-align: center;
+}
+
+.destacado {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    margin: 6px;
+    border-radius: 30px;
+    font-weight: bold;
+    width: 150px;
+    padding: 15px 12px;
+    font-size: 20px;
+    text-align: center;
+    transition: .5s;
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+    margin: 50px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    max-height: 50px;
+    padding: 15px 12px;
+    font-size: 20px;
+    text-align: center;
+    background: #800000;
+    font-family: 'VT323', monospace;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px black ;
+
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: var(--c1);
+
+    text-align: center;
+}
+
+.btn:active {
+    box-shadow: 2px 2px 3px black inset ;
+}
+
+.destacado:hover {
+    color: white;
+    background-color: var(--c1);
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    hyphens: auto;
+    color: var(--c2)
+}
+
+a {
+    color: var(--c1);
+    text-decoration: none;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.polaroid {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    border-bottom: 50px;
+    border-style: solid;
+    border-color: white;
+    object-fit: cover;
+    box-shadow: 3px 2px 5px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 46px;
+    max-width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.shadow {
+    box-shadow: 3px 2px 5px;
+}
+
+div {
+    margin: 0 auto;
+    padding: 0 450px;
+}
+
+#aleatorio {
+    display: block;
+    margin: 40px auto;
+
+}
+
+.espacio{
+    position: relative;
+    left: -70px;
+}
+
+@media screen and (min-width: 400px) {
+    .container {
+        margin: 1em 2em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
