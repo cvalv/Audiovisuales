@@ -1,0 +1,73 @@
+/* *{
+    outline: 1px solid red;
+} */
+
+body{
+    max-width: 960px;
+    height: 1080px;
+    margin: 10px auto;
+    background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(189,33,9,1) 35%, rgba(255,179,0,1) 100%) no-repeat;
+}
+
+header, main, footer{
+    text-align: center;
+    background: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin: 10px;
+    box-shadow: 2px 3px 3px gainsboro;
+    transition: 2s;
+}
+header h1{
+    text-shadow: 2px 2px 2px white;
+}
+header p{
+    font-size: 20px;
+}
+
+.a{
+    text-align: center;
+    margin: 10px
+}
+
+#selecimg, #comprobar, #iniciar{
+    font-size: 20px;
+    color: rgba(189,33,9,1);
+    background: black;
+    box-shadow: 2px 2px 3px black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#selecimg:hover, #comprobar:hover, #iniciar:hover{
+    letter-spacing: 2px;
+}
+
+#selecimg:active, #comprobar:active, #iniciar:active{
+    font-size: 15px;
+    color: black;
+    background: rgba(189,33,9,1);
+    box-shadow: -1px -1px 3px black;
+}
+
+#imagen{
+    border: 2px solid rgba(255,179,0,1);
+    border-radius: 5px;
+    max-width: 800px;
+    max-height: 400px;
+    margin: 10px;
+    /* object-fit: contain; */
+    box-shadow: 1px 1px 18px rgba(255,179,0,1);
+}
+
+#respuesta{
+        font-size: 20px;
+        color: rgba(189,33,9,1);
+        background: black;
+        box-shadow: 2px 2px 3px black;
+        transition: 0.3s;
+        cursor: pointer;
+    
+}
+

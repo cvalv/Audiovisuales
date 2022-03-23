@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de los planos</title>
+</head>
+<body>
+    <header><h1>EL JUEGO DE LOS PLANOS</h1>
+    <p id="oculto">Veremos cuanto sabes de tomar planos. Vamos a enseñar planos al azar y tienes que seleccionar el plano correcto. ¿Te atreves?</p>
+    <button id="iniciar" class="a" onclick="start()">INICIO</button>
+    </header>
+
+    <main id="contenido">
+        <div><h3 id="puntos"></h3></div>
+
+    <div class="a">
+        <img id="imagen" src="" alt="" >
+    </div>
+
+    <div class="a">
+        <select id="respuesta" onchange="selecresp();">
+            <option value=11>Selecciona la respuesta correcta</option>
+            <option value=0>Plano General</option>
+            <option value=1>Plano Panoramico</option>
+            <option value=2>Gran Plano General</option>
+            <option value=3>Plano Americano</option>
+            <option value=4>Primer Plano</option>
+            <option value=5>Gran Primer Plano</option>
+            <option value=6>Plano Medio</option>
+            <option value=7>Plano Nádir</option>
+            <option value=8>Plano Cenital</option>
+            <option value=9>Plano Picado</option>
+            <option value=10>Plano Contrapicado</option>
+          </select>
+        </div>
+
+        <div class="a">
+            <button id="comprobar" onclick="comprobar()">Comprobar</button>
+            <button id="selecimg" onclick="imgrandom()">Siguiente</button>
+        </div>
+
+
+
+<div id="contestacion">Good luck!</div>
+</main>
+
+    
+
+    <footer>Juego creado por Carlos Valverde y Francisco Rueda</footer>
+
+
+    <script src="juego.js"></script>
+</body>
+</html>

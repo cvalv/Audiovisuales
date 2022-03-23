@@ -1,0 +1,97 @@
+/* *{
+  outline: 1px solid red;
+} */
+
+body {
+  max-width: 960px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+main {
+  background: rgb(245, 208, 111);
+  
+  display: block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+  box-shadow: 2px 1px 3px black;
+}
+
+img {
+  max-width: 70%;
+  max-height: 70%;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px black;
+}
+
+#imagen{
+  display: block;
+  margin-top: 15px;
+  
+  
+}
+
+.imagensigno{
+  display: block;
+  max-width: 600px;
+  max-height: 600px;
+  margin: 10px auto;
+}
+
+#titulo{
+  margin-top: 20px;
+}
+
+h1 {
+  background: url("https://i.pinimg.com/originals/36/98/5b/36985b34b6770273b15892c0bb50a198.jpg") center center no-repeat;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  box-shadow: 5px 4px 4px black;
+  border-radius: 2px;
+  border-style: ridge;
+  border-color:rgb(245, 208, 111);
+  padding: 5px;
+  transition: .1s;
+  text-shadow: 2px 2px 2px black;
+}
+
+h1:hover {
+  cursor: pointer;
+}
+
+h1:active {
+  border-style: inset;
+  box-shadow: none;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 50px;
+}
+
+#mes {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+option {
+  text-align: center;
+  margin-left: 250px;
+}
+
+#sub {
+  background-color: white;
+  text-transform: uppercase;
+  padding: 3px;
+  border-radius: 5px;
+  box-shadow: 0 0 30px white;
+  margin: 5px;
+}
+
