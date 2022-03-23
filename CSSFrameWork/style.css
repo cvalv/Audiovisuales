@@ -28,7 +28,7 @@ nav ul {
     margin:auto 10px;
 }
 li{
-  display: inline;
+  display: ;
   border: 1px solid var(--c6);
   padding: 10px;
   font-size: 20px;
