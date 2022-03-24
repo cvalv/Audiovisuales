@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creación de Roboces</title>
+</head>
+
+<body>
+    <header>
+    <h1 class="tac">CREACIÓN DE ROBOCES</h1>
+
+    <p class="tac">Crea tu Robot a partir de las piezas que te proporcionamos.</p>
+</header>
+
+    <main>
+    <div class="flex">
+        <button class="btn" id="cabsanterior" onclick="anterior0();">Anterior</button>
+        <img src="" alt="" id="cabeza">
+        <button class="btn" id="cabsiguiente" onclick="siguiente0();">Siguiente</button>
+    </div>
+
+    <div class="flex">
+        <button class="btn" id="cueanterior" onclick="anterior1();">Anterior</button>
+        <img src="" alt="" id="cuerpo">
+        <button class="btn" id="cuesiguiente" onclick="siguiente1();">Siguiente</button>
+    </div>
+
+    <div class="flex">
+        <button class="btn" id="pieanterior" onclick="anterior2();">Anterior</button>
+        <img src="" alt="" id="piernas">
+        <button class="btn" id="piesiguiente" onclick="siguiente2();">Siguiente</button>
+    </div>
+
+    <div class="flex espacio  tac">
+    <button class="btn" id="aleatorio" onclick="aleatorio();">Aleatorio</button>
+    <select class="btn" id="roboces" onchange="entero();">
+        <option value=11>Selecciona tu robot favorito</option>
+        <option value=0>R2D2</option>
+        <option value=1>Robohot</option>
+        <option value=2>Pitagorín</option>
+        <option value=3>Ojobote</option>
+        <option value=4>Redrobot</option>
+      </select>
+    </div>
+</main>
+
+
+    <script src="creacion.js"></script>
+</body>
+
+</html>
