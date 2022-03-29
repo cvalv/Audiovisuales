@@ -14,7 +14,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-    outline: 1px solid red;
+  
 }
 
 
@@ -34,13 +34,8 @@ li {
 transition: 2s;
 }
 
-}
-ul.galeria {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-   
-}
+
+
 /*RETÍCULA*/
 /********************ul.galeria li {
     max-width: 22%;
@@ -80,4 +75,5 @@ a {
 footer {
     text-align: center;
     color: grey;
+    
 }
