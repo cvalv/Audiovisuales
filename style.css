@@ -10,28 +10,77 @@
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
-  
+
 }
 
+header {
+    margin-bottom: 30px;
+    color: olive;
+}
 
+h2 {
+    text-align: right;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+hr {
+    height: 2px;
+    margin-top: 5px;
+    background: olive;
+
+}
+
+button {
+    background: floralwhite;
+    border: 3px solid olive;
+    color: olive;
+    letter-spacing: 1px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+
+
+
+
+}
+
+button:hover {
+    padding: 5px;
+    background: olive;
+    color: floralwhite;
+    border-radius: 10px;
+    width: 120px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+
+
+
+}
 
 
 
 li {
     display: flex;
-   
-
 
     padding: 10px;
     font-size: 20px;
     margin-top: 15px;
 
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-transition: 2s;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+li:hover {
+    letter-spacing: 3px;
+    border: 5px solid olive;
+    font-weight: bold;
 }
 
 
@@ -39,21 +88,27 @@ transition: 2s;
 /*RETÍCULA*/
 
 .grid {
-    max-width: 30%;
-    height: 200px;
-    border-radius:10%;
- display: flex;
- flex-direction: row;
+   
+    
+    border-radius: 10%;
+    display: flex;
+    flex-direction: grid;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.grid img { max-width: 80px; max-height: 80px;}
+.grid li:hover {
+    border: 3px solid olive; letter-spacing: 0; font-weight: bold;
 }
 
 /****************************/
 
 
 
-img{
+img {
     max-width: 15px;
     max-height: 15px;
-   
+
 }
 
 body {
@@ -81,5 +136,7 @@ a {
 footer {
     text-align: center;
     color: grey;
-    margin-top:20px 
-};
+    margin-top: 20px
+}
+
+;
