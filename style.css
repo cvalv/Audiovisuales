@@ -95,11 +95,18 @@ li:hover {
     display: flex;
     flex-direction: grid;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 14px;
+    
 }
-.grid img { max-width: 80px; max-height: 80px;}
+.grid li{
+  width: 450px;
+}
+.grid img { max-width: 100px; max-height: 100px;
+  }
+
+}
 .grid li:hover {
-    border: 3px solid olive; letter-spacing: 0; font-weight: bold;
+    border: 2px solid olive; letter-spacing: 0; font-weight: normal;
 }
 
 /****************************/
@@ -141,4 +148,4 @@ footer {
     margin-top: 20px
 }
 
-;
+
