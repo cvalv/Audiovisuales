@@ -22,3 +22,6 @@ function lista(){
 function cuadricula(){ 
   document.getElementById('galeria').className="cuadricula";
 }
+
+
+        
