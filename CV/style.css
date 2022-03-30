@@ -19,6 +19,9 @@ nav {
   border: 3px solid #ffd600;
   box-sizing: border-box;
   padding: 20px;
+  text-decoration: none;
+  display:flex;
+  flex-direction: row;
 }
 
 #n1 {
@@ -81,4 +84,12 @@ img{
 object-position: center;
 object-fit: contain;
 height: 500px;
+}
+
+.col1 {
+  max-width: 473px;
+  
+}
+.col2 {
+  max-width: 473px;
 }
