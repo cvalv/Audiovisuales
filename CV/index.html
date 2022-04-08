@@ -141,6 +141,7 @@
       <!------BOTONES IMÁGENES--------------------------------->
       <div class="galeria">
         <img id="imagen" onclick="siguiente();" src="" />
+        <p id="pieImagen">Pie imagen</p>
         <div class="botones">
 
           <button id="previo" onclick="anterior();"><<</button>
@@ -155,7 +156,7 @@
         <script>
           var ruta = "img/";
           var extension = ".jpg";
-
+/*
           var img = [
             "reintegración volumétrica-serafines-retablo-san josé",
             "san antonio-restauración",
@@ -198,7 +199,27 @@
             "azabache-corazón",
             "anillo-plata-azabache",
             "clases-dibujo",
+          ];*/
+
+
+          var img = [
+            ["reintegración volumétrica-serafines-retablo-san josé","Imagen de la Reinterpretación volumetrica de tal sitio"],
+            ["san antonio-restauración","22Imagen de la Reinterpretación volumetrica de tal sitio"],
+            ["san antonio-restauración-reintegración-limpieza química","33Imagen de la Reinterpretación volumetrica de tal sitio"],
+            ["modelado-restauración-reintegración-maría magdalena-capilla-hornacina","Imagen de la Reinterpretación volumetrica de tal sitio"],
+            ["moldeado-mortero-restauración-maría magdalena-piedra","Imagen de la Reinterpretación volumetrica de tal sitio"],
+            ["moldeado-mortero-restauración-maría magdalena-piedra-adhesión","Imagen de la Reinterpretación volumetrica de tal sitio"],
+            ["moldeado-mortero-restauración-maría magdalena-piedra-policromado","Imagen de la Reinterpretación volumetrica de tal sitio"],
+            ["moldeado-mortero-restauración-maría magdalena-piedra-policromado-conservación","Imagen de la Reinterpretación volumetrica de tal sitio"]
+            
           ];
+
+
+
+
+
+
+
         
           /******************FIN ARRAY IMAGENES*******************/
           /**************PROGRAMACIÓN DE LA GALERÍA***************/
@@ -223,7 +244,9 @@
 
           function cargarImagen() {
             document.getElementById("imagen").src =
-              ruta + img[numero] + extension;
+              ruta + img[numero][0] + extension;
+
+              document.getElementById("pieImagen").innerText =img[numero][1];
           }
 
           cargarImagen();
@@ -244,7 +267,7 @@
 
   <div id="contacto">
            <div >
-             <button id="btns">
+             <button id="btns" >
                enviar</button>
            
 
@@ -268,3 +291,5 @@
     <footer></footer>
   </body>
 </html>
+
+

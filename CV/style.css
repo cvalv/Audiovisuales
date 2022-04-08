@@ -4,6 +4,10 @@
    outline: 1px red solid; 
 
 } */
+html {
+  scroll-behavior: smooth;
+}
+
 
 body {
   max-width: 960px;
@@ -195,6 +199,7 @@ padding: 10px;
 
 textarea{
 border-radius: 15px;
+padding: 15px;
 }
 
 #btns{
@@ -208,6 +213,8 @@ background:linear-gradient(
   360deg,
   rgba(255, 213, 0, 1) 0%,
   rgba(252, 250, 216, 1) 100%);}
+  #btns:hover{background-color: gold;
+    color: goldenrod;}
 
 
 #contacto2{
